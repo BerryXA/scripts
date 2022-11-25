@@ -6,7 +6,7 @@ local tab = window:NewTab("halo")
 
 local selection = tab:NewSelection("selection name")
 
-selection:NewButton("ButtonText","ButtonInfo",function()
+selection:NewSection("ButtonText","ButtonInfo",function()
 
     print("swed")
 
