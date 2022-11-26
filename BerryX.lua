@@ -6,9 +6,10 @@ local tab = window:NewTab("halo")
 
 local selection = tab:NewSelection("selection name")
 
-selection:NewSection("ButtonText","ButtonInfo",function()
-
-    print("swed")
-
-    end)
-print("f")
+selection:NewToggle("ButtonText","ButtonInfo",function(test)
+if test then
+print("swed")
+else
+Print("unswed")
+end
+end)
