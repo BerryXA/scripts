@@ -2,7 +2,7 @@ local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/T
 
 local window = ui.CreateLib("Name","RJTheme8")
 
-local tab = window:NewTab("hola")
+local tab = window:NewTab("hola seniora")
 
 local selection = tab:NewSelection("selection name")
 
